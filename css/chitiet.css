@@ -1,0 +1,206 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  margin: 0%;
+}
+#head {
+  width: 100%;
+  height: 140px;
+  background: rgb(210, 212, 204);
+  position: fixed;
+}
+#messages {
+  position: fixed;
+  height: 30px;
+  width: 150px;
+  background: rgb(255, 255, 255);
+  right: 100px;
+  bottom: 10px;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid rgb(129, 129, 136);
+}
+#messages span {
+  text-align: center;
+  font-family: sans-serif;
+  vertical-align: middle;
+}
+.up {
+  width: 100%;
+  height: 45px;
+  background: rgb(210, 212, 204);
+  line-height: 45px;
+  text-align: center;
+}
+.up h5 {
+  padding-left: 400px;
+}
+.up h5 span {
+  padding: 0px 10px 0px 10px;
+}
+.up h5 span a {
+  text-decoration: none;
+}
+
+.down {
+  width: 100%;
+  height: 105px;
+  background: rgb(236, 240, 230);
+}
+
+.down ul {
+  list-style: none;
+  padding: 20px;
+}
+.down ul li {
+  padding: 0px 10px 0px 10px;
+  float: left;
+}
+.search {
+  height: 30px;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+.search input {
+  float: left;
+  width: 580px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
+#temp {
+  background: rgb(236, 240, 230);
+  height: 50px;
+  width: 100%;
+}
+#menu {
+  float: left;
+
+  width: 25%;
+}
+#menu ul {
+  list-style-type: none;
+}
+#menu ul li {
+  display: inline-table;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 100px;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+}
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu-2 {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+#menu-2 span {
+  padding: 20px;
+}
+#menu-2 span img {
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+}
+#empty {
+  width: 100%;
+  height: 230px;
+}
+#container {
+  width: 100%;
+  height: 430px;
+}
+#image {
+  background: rgb(221, 216, 216);
+  height: 400px;
+  width: 30%;
+  float: left;
+}
+#image img {
+  padding: 20px;
+  height: 350px;
+  width: 350px;
+}
+#content {
+  width: 40%;
+  height: 400px;
+  background: rgb(247, 235, 235);
+  float: left;
+}
+#content span img {
+  height: 25px;
+  width: 25px;
+}
+#content button {
+  width: 200px;
+  height: 30px;
+  background: yellow;
+}
+#ship {
+  width: 30%;
+  height: 400px;
+  background: rgb(221, 216, 216);
+  float: left;
+}
+
+#tren {
+  width: 100%;
+  height: 90px;
+}
+#giua {
+  background: rgb(221, 216, 216);
+  width: 100%;
+  height: 110px;
+}
+#duoi {
+  background: rgb(221, 216, 216);
+  width: 100%;
+  height: 40px;
+}
+#tren1 {
+  background: rgb(221, 216, 216);
+  width: 100%;
+  height: 30px;
+}
+#giua1 {
+  background: rgb(221, 216, 216);
+  width: 100%;
+  height: 60px;
+}
+#duoi1 {
+  background: rgb(221, 216, 216);
+  width: 100%;
+  height: 60px;
+}
+#footer {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  text-align: center;
+}
+#chitiet {
+  width: 60%;
+  height: 1000px;
+  float: left;
+}
+#ngancach {
+  background: rgb(236, 227, 227);
+  width: 5%;
+  height: 2300px;
+  float: left;
+}
+#chitiet2 {
+  background: rgb(236, 227, 227);
+  width: 35%;
+  height: 2300px;
+  float: left;
+}
